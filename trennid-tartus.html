@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="et">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Trennid Tartus</title>
+</head>
+<body>
+    <header>
+        <strong>Lihtne veeb</strong>
+        <nav aria-label="Peamenüü">
+            <a href="#">Avaleht</a>
+            <a href="#teenused">Teenused</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card" id="teenused" aria-labelledby="t1">
+            <h1 id="t1">Võrkpallitrennid Tartus</h1>
+            <p>Grupitreeningud algajatele</p>
+            <ul>
+                <li>Grupitrennid</li>
+            </ul>
+        </section>
+
+        <section class="card" id="kontakt" style="margin-top:1rem">
+            <h2>Kontakt</h2>
+            <p>E-post: info@example.com<br>Telefon: +372 555 5555</p>
+        </section>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Lihtne veeb
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
