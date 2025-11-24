@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Navigatsiooni stiilid */
 nav {
     display: flex;
     justify-content: left;
@@ -29,6 +29,7 @@ nav img {
     height: 70px;
 }
 
+/* Headeri stiilid */
 .header-image {
     position: absolute;
     inset: 0;
@@ -95,6 +96,7 @@ header h1 {
     z-index: 3;
     text-align: center;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 
 .header-button a {
@@ -111,4 +113,57 @@ header h1 {
 .header-button a:hover {
     background-color: #c777c7;
     color: #fff;
+}
+/* Sisu stiilid */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-container {
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 300px;
+    background-color: #FFCCFF;
+    width: 300px;
+    height: auto;
+    margin: 50px;
+}
+
+.text-container h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text-container p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+.text-container li {
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+.image-container {
+    padding: 30px;
+    height: auto;
+}
+
+.image-container img {
+    border-radius: 50%;
+    border: 5px solid #008989;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: #00000027 0px 12px 8px;
 }
