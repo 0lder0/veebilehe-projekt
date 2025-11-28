@@ -227,6 +227,12 @@ header h1 {
     outline: none;
 }
 
+/* Reeglite nimekirja stiilid */
+.vahelehe-image-container {
+    border-top: 3px solid #008989;
+    border-bottom: 3px solid #008989;
+}
+
 /* Footer stiilid */
 footer {
     background-color: #000000;
